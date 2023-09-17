@@ -104,24 +104,35 @@
 
 		@keyframes rotate-hint {
 			0% {
+				opacity: 1;
 				transform: scale(-1, 1) rotate(0deg);
 			}
 
-			25% {
+			30% {
+				opacity: 1;
 				transform: scale(-1, 1) rotate(90deg);
 			}
 
-			50% {
+			70% {
+				opacity: 1;
 				transform: scale(-1, 1) rotate(90deg);
 			}
 
-			60% {
+			75% {
+				opacity: 0;
+				transform: scale(-1, 1) rotate(90deg);
+			}
+
+			95% {
+				opacity: 0;
 				transform: scale(-1, 1) rotate(0deg);
 			}
 
-			60% {
+			100% {
+				opacity: 1;
 				transform: scale(-1, 1) rotate(0deg);
 			}
+
 		}
 	</style>
 	<script>
