@@ -101,6 +101,9 @@
 			border-bottom: 4px solid var(--primary);
 			background: #fff;
 
+			/* leaflet sets z-index and then it overlays header */
+			z-index: 10001;
+
 			display: flex;
 			justify-content: space-between;
 		}
